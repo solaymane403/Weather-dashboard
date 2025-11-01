@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 import { useTheme } from './contexts/ThemeContext';
 
-// API key is read from environment variable injected at build time (via dotenv-webpack or system env)
+// API key (via dotenv-webpack or system env)
 const API_KEY = (process.env as any).API_KEY || (process.env as any).REACT_APP_API_KEY || '';
 
 interface WeatherData {
